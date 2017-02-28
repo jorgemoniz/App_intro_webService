@@ -16,6 +16,8 @@
 		090E7C851E64B96B008C65B9 /* WSPostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090E7C841E64B96B008C65B9 /* WSPostModel.swift */; };
 		090E7C871E64BA91008C65B9 /* API_UTILS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090E7C861E64BA91008C65B9 /* API_UTILS.swift */; };
 		090E7C891E64BFE4008C65B9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 090E7C881E64BFE4008C65B9 /* Podfile */; };
+		097201EB1E64C8DB00C6729C /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097201EA1E64C8DB00C6729C /* SwiftyJSON.framework */; };
+		097201EF1E64C92F00C6729C /* WSParserDataUno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097201EE1E64C92F00C6729C /* WSParserDataUno.swift */; };
 		E5FADDC134B4EA6C48395F57 /* Pods_App_intro_webService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AA1F3D80B38FC972F5D4F7 /* Pods_App_intro_webService.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +34,8 @@
 		090E7C841E64B96B008C65B9 /* WSPostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSPostModel.swift; sourceTree = "<group>"; };
 		090E7C861E64BA91008C65B9 /* API_UTILS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API_UTILS.swift; sourceTree = "<group>"; };
 		090E7C881E64BFE4008C65B9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		097201EA1E64C8DB00C6729C /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../../../../../../Users/cice/Library/Developer/Xcode/DerivedData/App_intro_webService-dvhuqtdwprxbsubslputayzpvmis/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		097201EE1E64C92F00C6729C /* WSParserDataUno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSParserDataUno.swift; sourceTree = "<group>"; };
 		51AA1F3D80B38FC972F5D4F7 /* Pods_App_intro_webService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App_intro_webService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		959FBA0652A3A17A2ABB7A8A /* Pods-App_intro_webService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App_intro_webService.release.xcconfig"; path = "Pods/Target Support Files/Pods-App_intro_webService/Pods-App_intro_webService.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				097201EB1E64C8DB00C6729C /* SwiftyJSON.framework in Frameworks */,
 				E5FADDC134B4EA6C48395F57 /* Pods_App_intro_webService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,9 +76,9 @@
 			isa = PBXGroup;
 			children = (
 				090E7C701E64B828008C65B9 /* AppDelegate.swift */,
-				090E7C861E64BA91008C65B9 /* API_UTILS.swift */,
+				097201ED1E64C90000C6729C /* API */,
 				090E7C821E64B930008C65B9 /* PrimerWebServiceTableViewController.swift */,
-				090E7C841E64B96B008C65B9 /* WSPostModel.swift */,
+				097201EC1E64C8F600C6729C /* MODELS */,
 				090E7C721E64B828008C65B9 /* ViewController.swift */,
 				090E7C741E64B828008C65B9 /* Main.storyboard */,
 				090E7C771E64B828008C65B9 /* Assets.xcassets */,
@@ -83,9 +88,27 @@
 			path = App_intro_webService;
 			sourceTree = "<group>";
 		};
+		097201EC1E64C8F600C6729C /* MODELS */ = {
+			isa = PBXGroup;
+			children = (
+				090E7C841E64B96B008C65B9 /* WSPostModel.swift */,
+			);
+			name = MODELS;
+			sourceTree = "<group>";
+		};
+		097201ED1E64C90000C6729C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				090E7C861E64BA91008C65B9 /* API_UTILS.swift */,
+				097201EE1E64C92F00C6729C /* WSParserDataUno.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
 		29DC65118CF1AA3EB5227BBB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				097201EA1E64C8DB00C6729C /* SwiftyJSON.framework */,
 				51AA1F3D80B38FC972F5D4F7 /* Pods_App_intro_webService.framework */,
 			);
 			name = Frameworks;
@@ -227,6 +250,7 @@
 				090E7C871E64BA91008C65B9 /* API_UTILS.swift in Sources */,
 				090E7C731E64B828008C65B9 /* ViewController.swift in Sources */,
 				090E7C851E64B96B008C65B9 /* WSPostModel.swift in Sources */,
+				097201EF1E64C92F00C6729C /* WSParserDataUno.swift in Sources */,
 				090E7C711E64B828008C65B9 /* AppDelegate.swift in Sources */,
 				090E7C831E64B930008C65B9 /* PrimerWebServiceTableViewController.swift in Sources */,
 			);
@@ -390,6 +414,7 @@
 				090E7C811E64B828008C65B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
