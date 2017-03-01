@@ -10,7 +10,8 @@ import UIKit
 
 class WSPostModel: NSObject {
     
-    //Nos copiamos el JSON y declaramos las variables
+    // Nos copiamos el JSON y declaramos las variables.
+    
     var userId : Int?
     var id : Int?
     var title : String?

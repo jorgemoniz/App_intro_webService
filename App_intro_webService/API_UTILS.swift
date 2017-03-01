@@ -16,4 +16,5 @@ struct Constantes {
 
 struct Base_Url {
     let BASE_URL_POST =  "https://jsonplaceholder.typicode.com/posts"
+    let BASE_URL_USERS = "https://jsonplaceholder.typicode.com/users"
 }

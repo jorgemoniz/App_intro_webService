@@ -18,6 +18,16 @@
 		090E7C891E64BFE4008C65B9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 090E7C881E64BFE4008C65B9 /* Podfile */; };
 		097201EB1E64C8DB00C6729C /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097201EA1E64C8DB00C6729C /* SwiftyJSON.framework */; };
 		097201EF1E64C92F00C6729C /* WSParserDataUno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097201EE1E64C92F00C6729C /* WSParserDataUno.swift */; };
+		098DD0BB1E674AD500100346 /* APIManagerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098DD0BA1E674AD500100346 /* APIManagerData.swift */; };
+		098DD0BF1E67557A00100346 /* WSUsersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098DD0BE1E67557A00100346 /* WSUsersModel.swift */; };
+		098DD0C11E67563E00100346 /* WSDireccionesUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098DD0C01E67563E00100346 /* WSDireccionesUsers.swift */; };
+		098DD0C41E6756B600100346 /* WSGeoUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098DD0C31E6756B600100346 /* WSGeoUsers.swift */; };
+		098DD0C61E67581F00100346 /* WSCompanyUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098DD0C51E67581F00100346 /* WSCompanyUsers.swift */; };
+		098DD0C81E675AE400100346 /* WSParserUsersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098DD0C71E675AE400100346 /* WSParserUsersModel.swift */; };
+		098DD0CC1E6760E300100346 /* WSDatosCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098DD0CB1E6760E300100346 /* WSDatosCustomCell.swift */; };
+		098DD0CE1E67658A00100346 /* WSUsersCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098DD0CD1E67658A00100346 /* WSUsersCustomCell.swift */; };
+		098DD0D01E6765AB00100346 /* WSListaUsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098DD0CF1E6765AB00100346 /* WSListaUsersTableViewController.swift */; };
+		098DD0D21E676ACD00100346 /* WSMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098DD0D11E676ACD00100346 /* WSMapViewController.swift */; };
 		E5FADDC134B4EA6C48395F57 /* Pods_App_intro_webService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AA1F3D80B38FC972F5D4F7 /* Pods_App_intro_webService.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +46,16 @@
 		090E7C881E64BFE4008C65B9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		097201EA1E64C8DB00C6729C /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../../../../../../Users/cice/Library/Developer/Xcode/DerivedData/App_intro_webService-dvhuqtdwprxbsubslputayzpvmis/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		097201EE1E64C92F00C6729C /* WSParserDataUno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSParserDataUno.swift; sourceTree = "<group>"; };
+		098DD0BA1E674AD500100346 /* APIManagerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManagerData.swift; sourceTree = "<group>"; };
+		098DD0BE1E67557A00100346 /* WSUsersModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSUsersModel.swift; sourceTree = "<group>"; };
+		098DD0C01E67563E00100346 /* WSDireccionesUsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSDireccionesUsers.swift; sourceTree = "<group>"; };
+		098DD0C31E6756B600100346 /* WSGeoUsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSGeoUsers.swift; sourceTree = "<group>"; };
+		098DD0C51E67581F00100346 /* WSCompanyUsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSCompanyUsers.swift; sourceTree = "<group>"; };
+		098DD0C71E675AE400100346 /* WSParserUsersModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSParserUsersModel.swift; sourceTree = "<group>"; };
+		098DD0CB1E6760E300100346 /* WSDatosCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSDatosCustomCell.swift; sourceTree = "<group>"; };
+		098DD0CD1E67658A00100346 /* WSUsersCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSUsersCustomCell.swift; sourceTree = "<group>"; };
+		098DD0CF1E6765AB00100346 /* WSListaUsersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSListaUsersTableViewController.swift; sourceTree = "<group>"; };
+		098DD0D11E676ACD00100346 /* WSMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSMapViewController.swift; sourceTree = "<group>"; };
 		51AA1F3D80B38FC972F5D4F7 /* Pods_App_intro_webService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App_intro_webService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		959FBA0652A3A17A2ABB7A8A /* Pods-App_intro_webService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App_intro_webService.release.xcconfig"; path = "Pods/Target Support Files/Pods-App_intro_webService/Pods-App_intro_webService.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,8 +97,9 @@
 			children = (
 				090E7C701E64B828008C65B9 /* AppDelegate.swift */,
 				097201ED1E64C90000C6729C /* API */,
-				090E7C821E64B930008C65B9 /* PrimerWebServiceTableViewController.swift */,
+				098DD0CA1E675B3100100346 /* VIEW_CONTROLLERS */,
 				097201EC1E64C8F600C6729C /* MODELS */,
+				098DD0C91E675B0400100346 /* PARSERS */,
 				090E7C721E64B828008C65B9 /* ViewController.swift */,
 				090E7C741E64B828008C65B9 /* Main.storyboard */,
 				090E7C771E64B828008C65B9 /* Assets.xcassets */,
@@ -92,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				090E7C841E64B96B008C65B9 /* WSPostModel.swift */,
+				098DD0C21E67564E00100346 /* MODEL_USERS */,
 			);
 			name = MODELS;
 			sourceTree = "<group>";
@@ -100,9 +122,41 @@
 			isa = PBXGroup;
 			children = (
 				090E7C861E64BA91008C65B9 /* API_UTILS.swift */,
-				097201EE1E64C92F00C6729C /* WSParserDataUno.swift */,
+				098DD0BA1E674AD500100346 /* APIManagerData.swift */,
 			);
 			name = API;
+			sourceTree = "<group>";
+		};
+		098DD0C21E67564E00100346 /* MODEL_USERS */ = {
+			isa = PBXGroup;
+			children = (
+				098DD0BE1E67557A00100346 /* WSUsersModel.swift */,
+				098DD0C01E67563E00100346 /* WSDireccionesUsers.swift */,
+				098DD0C31E6756B600100346 /* WSGeoUsers.swift */,
+				098DD0C51E67581F00100346 /* WSCompanyUsers.swift */,
+			);
+			name = MODEL_USERS;
+			sourceTree = "<group>";
+		};
+		098DD0C91E675B0400100346 /* PARSERS */ = {
+			isa = PBXGroup;
+			children = (
+				097201EE1E64C92F00C6729C /* WSParserDataUno.swift */,
+				098DD0C71E675AE400100346 /* WSParserUsersModel.swift */,
+			);
+			name = PARSERS;
+			sourceTree = "<group>";
+		};
+		098DD0CA1E675B3100100346 /* VIEW_CONTROLLERS */ = {
+			isa = PBXGroup;
+			children = (
+				090E7C821E64B930008C65B9 /* PrimerWebServiceTableViewController.swift */,
+				098DD0CB1E6760E300100346 /* WSDatosCustomCell.swift */,
+				098DD0CF1E6765AB00100346 /* WSListaUsersTableViewController.swift */,
+				098DD0CD1E67658A00100346 /* WSUsersCustomCell.swift */,
+				098DD0D11E676ACD00100346 /* WSMapViewController.swift */,
+			);
+			name = VIEW_CONTROLLERS;
 			sourceTree = "<group>";
 		};
 		29DC65118CF1AA3EB5227BBB /* Frameworks */ = {
@@ -248,11 +302,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				090E7C871E64BA91008C65B9 /* API_UTILS.swift in Sources */,
+				098DD0D01E6765AB00100346 /* WSListaUsersTableViewController.swift in Sources */,
+				098DD0C11E67563E00100346 /* WSDireccionesUsers.swift in Sources */,
 				090E7C731E64B828008C65B9 /* ViewController.swift in Sources */,
+				098DD0CC1E6760E300100346 /* WSDatosCustomCell.swift in Sources */,
+				098DD0BF1E67557A00100346 /* WSUsersModel.swift in Sources */,
 				090E7C851E64B96B008C65B9 /* WSPostModel.swift in Sources */,
 				097201EF1E64C92F00C6729C /* WSParserDataUno.swift in Sources */,
 				090E7C711E64B828008C65B9 /* AppDelegate.swift in Sources */,
+				098DD0BB1E674AD500100346 /* APIManagerData.swift in Sources */,
+				098DD0CE1E67658A00100346 /* WSUsersCustomCell.swift in Sources */,
+				098DD0D21E676ACD00100346 /* WSMapViewController.swift in Sources */,
 				090E7C831E64B930008C65B9 /* PrimerWebServiceTableViewController.swift in Sources */,
+				098DD0C81E675AE400100346 /* WSParserUsersModel.swift in Sources */,
+				098DD0C61E67581F00100346 /* WSCompanyUsers.swift in Sources */,
+				098DD0C41E6756B600100346 /* WSGeoUsers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
